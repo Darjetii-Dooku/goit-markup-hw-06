@@ -78,7 +78,6 @@ ol {
   padding: 0 16px;
   min-width: 320px;
   max-width: 428px;
-  outline: 2px solid red;
 }
 @media only screen and (min-width: 768px) {
   .container {
