@@ -84,6 +84,7 @@ ol {
     max-width: 768px;
   }
 }
+
 @media only screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
@@ -1205,14 +1206,13 @@ textarea::placeholder {
   cursor: pointer;
   border: none;
   outline: none;
-  margin-right: 16px;
 }
 .mob-close-icon {
   fill: #2e2f42;
 }
 
 @media (min-width: 768px) {
-  .menu-toggle {
+  .menu-burger {
     display: none;
   }
 }
@@ -1220,10 +1220,6 @@ textarea::placeholder {
 .menu-toggle:hover,
 .menu-toggle:focus {
   background-color: rgba(0, 0, 0, 0.1);
-}
-
-.menu-toggle-icon {
-  stroke: #2e2f42;
 }
 
 .menu-container {
@@ -1309,4 +1305,7 @@ textarea::placeholder {
 }
 .mob-netw-icon {
   fill: var(--cloud);
+}
+.burger-menu {
+  stroke: var(--brand-background);
 }
