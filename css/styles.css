@@ -421,13 +421,13 @@ ol {
 }
 .seco
 /* 3 section */
-.third-section {
-  padding-bottom: 120px;
-}
 @media only screen and (max-width: 1157px) {
   .third-section {
     display: none;
   }
+}
+.third-section {
+  padding-bottom: 120px;
 }
 .third-section-title {
   font-family: "Roboto";
