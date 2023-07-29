@@ -914,8 +914,9 @@ ol {
   width: 360px;
   position: relative;
   overflow: hidden;
+  transform: translateY(0%);
 }
-.project-cards-item:hover .overlay-text {
+.project-cards-link:hover .overlay-text {
   transform: translateY(0);
 }
 .project-cards-titles {
